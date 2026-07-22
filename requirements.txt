@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-text-splitters
+langchain-chroma
+chromadb
+sentence-transformers
+transformers
+torch
+pypdf
+python-dotenv
+tqdm
+langchain-groq
+streamlit
+fastapi
+uvicorn
+pydantic
