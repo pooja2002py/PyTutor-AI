@@ -35,15 +35,14 @@ def load_models():
     )
 
     retriever = db.as_retriever(search_type="similarity")
-        return retriever, llm.
+    
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
     api_key=groq_api_key,
     temperature=0.2,
     max_tokens=1024
     )
-
-    return retriever, llm
+return retriever, llm
 
 
 retriever, llm = load_models()
