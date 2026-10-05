@@ -34,9 +34,9 @@ def load_models():
         embedding_function=embeddings
     )
 
-    retriever = db.as_retriever(search_type="similarity")
+    retriever = db.as_retriever(search_type="similarity") 
     
-llm = ChatGroq(
+    llm = ChatGroq(
         model="llama-3.1-8b-instant",
         api_key=groq_api_key,
         temperature=0.2,
