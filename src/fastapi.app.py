@@ -111,7 +111,7 @@ with st.sidebar:
     st.write("Official Python Tutorial")
 
     st.markdown("### 🤖 LLM")
-    st.write("Llama 3.3 70B (Groq)")
+    st.write("Llama 3.1 8B (Groq)")
 
     st.markdown("### 🔍 Embeddings")
     st.write("all-MiniLM-L6-v2")
