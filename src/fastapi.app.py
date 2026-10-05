@@ -37,7 +37,7 @@ def load_models():
     retriever = db.as_retriever(search_type="similarity") 
     
     llm = ChatGroq(
-        model="llama-3.1-8b-instant",
+        model="qwen/qwen3.8-27b",
         api_key=groq_api_key,
         temperature=0.2,
         max_tokens=1024
@@ -111,7 +111,7 @@ with st.sidebar:
     st.write("Official Python Tutorial")
 
     st.markdown("### 🤖 LLM")
-    st.write("Llama 3.1 8B (Groq)")
+    st.write("Qwen 3.8 27B (Groq)")
 
     st.markdown("### 🔍 Embeddings")
     st.write("all-MiniLM-L6-v2")
