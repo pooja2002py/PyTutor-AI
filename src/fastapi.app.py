@@ -40,7 +40,7 @@ def load_models():
         model="qwen/qwen3.8-27b",
         api_key=groq_api_key,
         temperature=0.2,
-        max_tokens=1024
+        max_tokens=900
     )
 
     return retriever, llm
